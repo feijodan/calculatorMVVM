@@ -74,6 +74,12 @@
     <Compile Include="View\CalculatorButtonControl.xaml.cs">
       <DependentUpon>CalculatorButtonControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\CalculatorControl.xaml.cs">
+      <DependentUpon>CalculatorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CalculatorKeyboardControl.xaml.cs">
+      <DependentUpon>CalculatorKeyboardControl.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,6 +93,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\CalculatorButtonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CalculatorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CalculatorKeyboardControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

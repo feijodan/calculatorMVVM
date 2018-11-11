@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="CalculatorMVVM.View.CalculatorKeyboardControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalculatorMVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <local:CalculatorButtonControl Grid.Row="0" Grid.Column="0" CalculatorButtonContent="7"/>
+        <local:CalculatorButtonControl Grid.Row="0" Grid.Column="1" CalculatorButtonContent="8"/>
+        <local:CalculatorButtonControl Grid.Row="0" Grid.Column="2" CalculatorButtonContent="9"/>
+        <local:CalculatorButtonControl Grid.Row="0" Grid.Column="3" CalculatorButtonContent="X"/>
+        <local:CalculatorButtonControl Grid.Row="1" Grid.Column="0" CalculatorButtonContent="4"/>
+        <local:CalculatorButtonControl Grid.Row="1" Grid.Column="1" CalculatorButtonContent="5"/>
+        <local:CalculatorButtonControl Grid.Row="1" Grid.Column="2" CalculatorButtonContent="6"/>
+        <local:CalculatorButtonControl Grid.Row="1" Grid.Column="3" CalculatorButtonContent="-"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="0" CalculatorButtonContent="1"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="1" CalculatorButtonContent="2"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="2" CalculatorButtonContent="3"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="3" CalculatorButtonContent="+"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="0" CalculatorButtonContent="+-"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="1" CalculatorButtonContent="0"/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="2" CalculatorButtonContent="."/>
+        <local:CalculatorButtonControl Grid.Row="2" Grid.Column="3" CalculatorButtonContent="="/>
+    </Grid>
+</UserControl>

@@ -27,4 +27,8 @@ C:\Users\danie\source\repos\CalculatorMVVM\CalculatorMVVM\obj\Debug\CalculatorMV
 C:\Users\danie\source\repos\CalculatorMVVM\CalculatorMVVM\obj\Debug\CalculatorMVVM.pdb
 C:\Users\danie\source\repos\CalculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorButtonControl.baml
 C:\Users\danie\source\repos\CalculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorButtonControl.g.cs
-C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\CalculatorMVVM.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorControl.g.cs
+C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorKeyboardControl.g.cs
+C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorControl.baml
+C:\Users\danie\source\repos\calculatorMVVM\CalculatorMVVM\obj\Debug\View\CalculatorKeyboardControl.baml
